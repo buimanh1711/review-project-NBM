@@ -1,0 +1,95 @@
+.cartIcon {
+    position: relative;
+    cursor: pointer;
+}
+.cartIconBlock {
+    padding-left: 20px;
+}
+.cartContainer {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+    z-index: 1000;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.185);
+    padding: 5px;
+    overflow: scroll;
+}
+.cartContainer::-webkit-scrollbar { 
+    display: none; 
+}
+
+.cartList {
+    padding: 0
+}
+
+/* .cartList::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+}; */
+.cartItem {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+.cartItemInfo {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.quatity.hidden{
+    display: none;
+}
+.quatity.display {
+    display: block;
+}
+.cartItemImg {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.addFunc{
+    color: green;
+}
+.decFunc{
+    color: black;
+}
+.deleteFunc {
+    color: red
+}
+.cartItemFunc {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+}
+.cartItem:hover .cartItemFunc {
+    opacity: 100%;
+}
+.cartItemFunc i {
+    padding: 3px;
+    cursor: pointer;
+}
+.cartIcon {
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+.display {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.closeCartIcon {
+    position: absolute;
+    color: black;
+    top: 10px;
+    right: 20px;
+    z-index: 1001;
+    cursor: pointer;
+}

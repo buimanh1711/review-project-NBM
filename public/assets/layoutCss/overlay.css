@@ -1,0 +1,36 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+
+    background: rgba(153, 146, 146, 0.432);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentBlock {
+    position: relative;
+    width: 40%;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.closeForm-icon {
+    position: absolute;
+    z-index: 1000;
+    color: black;   
+    font-size: 20px;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}
+.closeForm-icon:hover {
+    opacity: 1;
+}
+.overlay--off {
+    display: none;
+}

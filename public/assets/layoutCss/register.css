@@ -1,0 +1,45 @@
+.registerBlock .registerBlock--on {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.registerBlock button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin: auto 2px;
+    cursor: pointer;
+    background: #304897;
+}
+
+.registerBlock button:hover {
+    border-radius: 20px;
+    background: #6A75DB;
+    transition: ease-in 0.1s;
+}
+
+.registerBlock--on {
+    position: relative;
+    padding-left: 20px;
+}
+
+.registerBlock--on ul {
+    position: absolute;
+    background:#304897;
+    border: white solid 2px;
+    padding: 0;
+    z-index: 1000;
+    border-radius: 5px;
+}
+.registerBlock--on ul hr {
+    width: 80%;
+}
+.registerBlock--on ul li {
+    list-style-type: none;
+    padding: 5px 0px;
+    width: 200px;
+    text-align: center;
+}
+.loginBlock {
+    display: none;
+}

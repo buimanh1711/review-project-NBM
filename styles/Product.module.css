@@ -1,0 +1,17 @@
+.content {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;    
+}
+.col {
+    padding: 5px;
+}
+.price {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 1rem;
+}

@@ -1,0 +1,67 @@
+.registerBlock .registerBlockOn {
+    margin-left: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+}
+.avt{
+    cursor: pointer;
+}
+
+.registerBlock .registerBlockOff {
+    margin-left: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    
+    display: none;
+}
+.registerBlock {
+    display: inline-flex;
+    align-items: center;
+}
+.registerBlock button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: auto 2px;
+    cursor: pointer;
+    background: #304897;
+}
+
+.registerBlock button:hover {
+    background: #6A75DB
+}
+
+.registerBlockOn {
+    position: relative;
+    padding-left: 20px;
+}
+
+.registerBlockOn ul {
+    position: absolute;
+    background:#304897;
+    padding: 0;
+    display: none;
+    z-index: 1000;
+    border-radius: 5px;   
+    border: 1px solid rgba(255, 255, 255, 0.945);
+    right: 0px;
+}
+.registerBlockOn ul hr {
+    width: 100%;
+    margin: 0px;
+}
+.registerBlockOn ul li {
+    cursor: pointer; 
+    list-style-type: none;
+    padding: 5px 0px;
+    width: 200px;
+    text-align: center;
+}
+.registerBlockOn ul li:hover {
+    background: rgb(114, 143, 206);
+}
+.registerBlockOn:hover .registerOptions {
+    display: block;
+}
